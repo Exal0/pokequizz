@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "policedialogue";
+    src: url("../font/Pokemon-Classic.ttf");
+}
+
+body{
+  margin: 0;
+  background: url("https://pokedle.net/img/Background.b373eb68.png");
+  background-size: cover;
+  background-color: #425c3c;
+  
+  text-align: center;
+}
+
+header h1{
+  display: flex;
+  justify-content: center; 
+}
+
+
+
+.style-zonetext{
+    position: absolute;
+    top: 80%;
+    left: 41%;
+    font-family: policedialogue;
+}
+
+
+.game{
+position: absolute;
+left: 25%;
+width: 100%;
+max-width: 50%;
+background: rgb(41, 78, 104);
+padding-bottom: 18%;
+}
+
+.border {
+    box-shadow: rgb(236, 217, 239) 0px 0px 0px 4px inset;
+    border-radius: 28px 10px 10px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: rgb(202, 167, 70);
+    border-image: initial;
+}
+
+h2{
+    font-family: policedialogue;
+}
+
